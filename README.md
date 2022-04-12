@@ -2,6 +2,7 @@
 
 The crypto analytics dashboard is a technical indicators application built by Peter Lieberman to guide crypto trading and investment strategies. It contains linear regression, asset correlation, and asset performance statistics, including Sortino Ratios and Peak to Trough data. The application collects real-time data from the Messari API, performs statstical modeling on the back-end, and displays the data in a Jupyter Notebook.
 
+Live Demo: https://nbviewer.org/github/Pac1226/Crypto-Analytics-Dashboard/blob/main/crypto_analytics.ipynb
 
 ## Technologies
 

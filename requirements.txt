@@ -1,0 +1,11 @@
+pandas
+numpy
+os
+financialanalysis
+streamlit
+dotenv
+messari.messari
+matplotlib.pyplot
+hvplot.pandas
+holoviews
+hv.extension

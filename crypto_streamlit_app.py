@@ -19,12 +19,12 @@ hv.extension('bokeh')
 # A paid subscription is required.
 
 #st.write("messari_api_key:", st.secrets["MESSARI_API_KEY"])
-#st.write(
-    #"Has environment variables been set:",
-    #os.environ["MESSARI_API_KEY"] == st.secrets["MESSARI_API_KEY"],
-#)
+st.write(
+    "Has environment variables been set:",
+    os.environ["MESSARI_API_KEY"] == st.secrets["MESSARI_API_KEY"],
+)
 
-messari_api_key = st.secrets["MESSARI_API_KEY"]
+messari_api_key = os.environ["MESSARI_API_KEY"]
 messari = Messari(messari_api_key)
 
 # Header of application
@@ -234,7 +234,7 @@ def load_crypto_prices(start_date, end_date):
     column_names = ["Bitcoin", "Ethereum", 
                     "BNB Chain", "Cardano",
                     "Solana", "Terra",
-                    "Avalanche", "Polkadot (DOT)",
+                    "Avalanche", "Polkadot",
                     "Polygon", "Cosmos",
                     "Algorand", "NEAR"]
 
@@ -249,17 +249,17 @@ crypto_returns, crypto_prices = load_crypto_prices(start_date, end_date)
 
 
 # Function to calculate the asset correlations
-def rolling_correlations(asset, days):
+def correlations(asset, days):
     
-    rolling_correlations = pd.DataFrame(crypto_returns.rolling(window=int(days)).corr(crypto_returns[asset]).dropna())
-    rolling_correlations = rolling_correlations.drop(columns={asset})
+    correlations = crypto_returns.tail(int(days)).corr() * crypto_returns.tail(int(days)).corr()
+    correlation_asset = correlations[asset]
+    correlation_asset = correlation_asset.drop(columns={asset})
     
-    rolling_correlations = rolling_correlations.round(2)
-    rolling_correlations = rolling_correlations.iloc[-1]
+    correlation_asset = correlation_asset.round(2)
 
-    rolling_correlations = rolling_correlations.sort_values(ascending=True)
+    correlation_asset = correlation_asset.sort_values(ascending=True)
     
-    return rolling_correlations
+    return correlation_asset
 
 
 # Function to transform the number_of_months input into number_of_days
@@ -275,7 +275,7 @@ def number_of_days(number_of_months):
 number_of_days = number_of_days(number_of_months)
 
 # Correlations heatmap
-correlations = rolling_correlations(selected_asset, number_of_days)
+correlations = correlations(selected_asset, number_of_days)
 correlations_plot = correlations.hvplot.heatmap(hover_color="black", rot=45, xaxis=None)
 
 st.markdown("""**Asset Correlations**""")

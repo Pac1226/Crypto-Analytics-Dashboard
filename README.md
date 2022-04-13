@@ -1,12 +1,12 @@
 # Crypto Analytics Dashboard
 
-There are two applications that assess the risk/return profile of crypto assets and provide insight into future price movements using linear regressions. The app connects to the Messari API, a crypto research firm that aggreggates data from crypto exchanges, protocols, and analytics firms. The app runs a series of statistical models on real-time data, displaying key insights as data visualizations.
+The analytics dashboard is an application that provides insights on the risk/return profile of crypto assets and future price movements using linear regressions. It connects to the Messari API, which aggreggates data from crypto exchanges, protocols, and analytics firms. The app runs a series of statistical models on real-time timeseries price data and displays key insights as data visualizations.
 
-The **first** application is called **"crypto_analytics dashboard.ipynb."** It is a Jupyter Notebook that can be accessed over the internet through the below link for viewing only or downloaded from GitHub for full customization.
+There are two versions of the application:
 
-[nbviewer.org](https://nbviewer.org/github/Pac1226/Crypto-Analytics-Dashboard/blob/main/crypto_analytics_dashboard.ipynb)
+The **first** application is called **"crypto_analytics dashboard.ipynb."** It is a Jupyter Notebook that can be accessed at [nbviewer.org](https://nbviewer.org/github/Pac1226/Crypto-Analytics-Dashboard/blob/main/crypto_analytics_dashboard.ipynb) for viewing only or downloaded from GitHub for full customization.
 
-The **second** application is **"crypto_streamlit_app.py."** This is an interactive web application hosted on Streamlit that responds to user inputs and updates in real-time. The data and insights are the same. The former is more comprehensive and the latter is more interactive and user-friendly.
+The **second** application is **"crypto_streamlit_app.py."** This is an interactive web application hosted on Streamlit that responds to user inputs and updates in real-time. The data and insights are the same. The former is more comprehensive and the latter is more interactive and user-friendly. The link to the application will be provided soon.
 
 ---
 

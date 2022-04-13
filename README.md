@@ -1,53 +1,33 @@
 # Crypto Analytics Dashboard
 
-The crypto analytics dashboard is a technical indicators application built by Peter Lieberman to guide crypto trading and investment strategies. It contains linear regression, asset correlation, and asset performance statistics, including Sortino Ratios and Peak to Trough data. The application collects real-time data from the Messari API, performs statstical modeling on the back-end, and displays the data in a Jupyter Notebook.
+There are two applications built by Peter Lieberman that analyze the risk/return profile of various crypto assets and make price predictions based on machine learning algorithms.
 
+The first application si "crypto_analytics dashboard.ipynb," which is a Jupyter Notebook that can be downloaded for customization or accessed over the internet through the below link:
+
+https://nbviewer.org/github/Pac1226/Crypto-Analytics-Dashboard/blob/main/crypto_analytics_dashboard.ipynb
+
+The second application is "crypto_streamlit_app.py," which is an interactive web-based application that responds to user inputs.
 
 ## Technologies
 
 ```python
-The program uses a combination of first-party & third-party Python libraries: 
-    
-    - 3rd Party Libraries: Pandas, NumPy, FinancialAnalysis, Messari.Messari, Datetime, hvPlot, Matplotlib
-    
-    - 1st Party Modules: api.py, calculations.py, charts.py, filters.py
+The program uses Pandas, NumPy, FinancialAnalysis, Messari, Scikit-learn, hvPlot, Matplotlib, and sevaral custom built functions.
+  
 ```
 ---
 
 ## Installation Guide
 
-For most users, FinancialAnalysis, Messari.Messari will need to be installed prior to utilizing the Jupyter Notebooks. The Voila version can be asked by anyone through a web browser.
+For most users, FinancialAnalysis and Messari.Messari will need to be installed prior to downloading the applications. There are four modules in the "formulas" folder that are also required to run the file locally. Accessing the file
 
----
+--
 
-## Modules
+## Insights
 
-The crypto_analytics.py is the main script. The "formulas" folder contains four (4) modules that I built that connect to the Messari API, clean the data, and run statistical models. The "data" folder contains several CSV files that contain data pulled from the Messari API. These data files are not used in the the application itself, but are shared for offline data analysis.
-
-
-## Usage
-
-The assets included in the dashboard are Bitcoin, Ethereum, Cardano, BNB Smart Chain, Solana, Avalanche, Terra, Polkadot, Polygon, Cosmos, NEAR, and Algorand. There are four (4) areas of anaylsis:
-
-1) Crypto Power Rankings: displays the real-time price change of the crypto assets over the last 12 months, last 180 days, and the last 90 days
-
-2) Financial Ratios & Performance Statistics: shows the price peak-to-trough and Sharpe, Sortino, and Calmar ratios over the last 12 months
-
-3) Assets Correlations: shows the correlation of the crypto assets on a rolling 12 month basis, displayed as a heatmap
-
-4) Linear Regressions: performs a timeseries linear regression that produces a parellel channel of the long-term mean and standard deviation. This is used to guide a "mean reversion" trading strategy 
-
----
-
-## Charts
-
-
-
----
-
-## Contributors
-
-The application was built by Peter Lieberman.
+* Historical Price Performance
+* Risk/Return Metrics
+* Asset Correlations
+* Linear Regressions
 
 ---
 

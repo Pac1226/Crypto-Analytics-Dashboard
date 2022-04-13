@@ -18,7 +18,7 @@ load_dotenv()
 # Insert your private key into a .env file. 
 # A paid subscription is required.
 
-st.write(os.environ["messari_api_key"], st.secrets["MESSARI_API_KEY"]
+st.write(os.environ["messari_api_key"] == st.secrets["MESSARI_API_KEY"]
 #messari_api_key = os.getenv("MESSARI_API_KEY")
 messari = Messari(messari_api_key)
 

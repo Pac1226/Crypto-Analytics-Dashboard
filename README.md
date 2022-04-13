@@ -60,7 +60,7 @@ There are four (4) key insights that can be displayed over any time period. For 
   
 * Linear Regressions
   - Runs machine learning models to pinpoint the linear regression paralell channel over any period.
-  - Shows the regression line, parallel lines for one (1) and two (2) standard devaitions above/below the mean, and the Simple Moving Averages (SMA).
+  - Shows the regression line, standard devaition parellel lines, and the 50-Day / 200-Day Simple Moving Average (SMA).
 
 ---
 

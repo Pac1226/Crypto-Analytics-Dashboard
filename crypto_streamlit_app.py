@@ -22,7 +22,7 @@ load_dotenv()
 #st.write(
     #"Has environment variables been set:",
     #os.environ["MESSARI_API_KEY"] == st.secrets["MESSARI_API_KEY"],
-)
+#)
 
 messari_api_key = os.getenv("MESSARI_API_KEY")
 messari = Messari(messari_api_key)

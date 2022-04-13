@@ -6,14 +6,14 @@ import numpy as np
 import os
 import financialanalysis as fa
 import streamlit as st
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from messari.messari import Messari
 import matplotlib.pyplot as plt
 import hvplot.pandas
 import holoviews as hv
 hv.extension('bokeh')
 
-load_dotenv()
+#load_dotenv()
 
 # Insert your private key into a .env file. 
 # A paid subscription is required.

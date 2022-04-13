@@ -28,7 +28,7 @@ Accessing the web-applications requires no programming or downloading. These are
 
 ## Crypto Assets
 
-The applications aggregate, clean, and run models on timeseries price data collected on twelve (12) of the top Layer One blockchain protocols.
+The applications aggregate, clean, and run models on timeseries price data collected on twelve (12) Layer One blockchain protocols.
 
 * Bitcoin (BTC)
 * Ethereum (ETH)

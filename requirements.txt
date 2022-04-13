@@ -3,6 +3,6 @@ numpy==1.20.3
 financialanalysis==1.2.0
 streamlit==1.8.1
 messari==1.0.0
-matplotlib.pyplot==3.4.3
+matplotlib==3.4.3
 hvplot.pandas==0.7.3
 holoviews==1.14.8

@@ -1,6 +1,6 @@
 # Crypto Analytics Dashboard
 
-There are two applications that assess the risk/return profile of crypto assets and provide insight into future price movements using linear regressions. The app connects to the Messari API, a crypto research firm that aggreggates data from crypto exchanges, protocols, and analytics firms. The app runs a series of statsitical models on real-time data, displaying key insights as data visualizations.
+There are two applications that assess the risk/return profile of crypto assets and provide insight into future price movements using linear regressions. The app connects to the Messari API, a crypto research firm that aggreggates data from crypto exchanges, protocols, and analytics firms. The app runs a series of statistical models on real-time data, displaying key insights as data visualizations.
 
 The **first** application is called **"crypto_analytics dashboard.ipynb."** It is a Jupyter Notebook that can be accessed over the internet through the below link for viewing only or downloaded from GitHub for full customization.
 

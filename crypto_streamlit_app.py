@@ -6,21 +6,26 @@ import numpy as np
 import os
 import financialanalysis as fa
 import streamlit as st
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from messari.messari import Messari
 import matplotlib.pyplot as plt
 import hvplot.pandas
 import holoviews as hv
 hv.extension('bokeh')
 
-load_dotenv()
+#load_dotenv()
 
 # Insert your private key into a .env file. 
 # A paid subscription is required.
 
-#st.write("messari_api_key", os.environ["MESSARI_API_KEY"] == st.secrets["MESSARI_API_KEY"],)
-messari_api_key = os.getenv("MESSARI_API_KEY")
-messari = Messari(messari_api_key)
+st.write("messari_api_key:", st.secrets["MESSARI_API_KEY"])
+st.write(
+    "Has environment variables been set:",
+    os.environ["MESSARI_API_KEY"] == st.secrets["MESSARI_API_KEY"],
+)
+
+#messari_api_key = os.getenv("MESSARI_API_KEY")
+#messari = Messari(messari_api_key)
 
 # Header of application
 st.set_option('deprecation.showPyplotGlobalUse', False)

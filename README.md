@@ -17,11 +17,11 @@ The program uses Pandas, NumPy, FinancialAnalysis, Messari, Scikit-learn, hvPlot
 
 ## Installation Guide
 
-For most users, FinancialAnalysis and Messari.Messari will need to be installed prior to downloading the applications. There are four modules in the "formulas" folder that are also required to run the file locally. Accessing the file
+FinancialAnalysis and Messari.Messari will need to be installed to customize the application in Jupyter Notebook. There are four modules in the "formulas" folder that are also required to run the file locally. Accessing the web-applications requires no programming or downloads.
 
 --
 
-## Insights
+## Analytics & Insights
 
 * Historical Price Performance
 * Risk/Return Metrics

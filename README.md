@@ -1,16 +1,14 @@
 # Crypto Analytics Dashboard
 
-The crypto analytics dashboard is a technical indicators application built by Peter Lieberman to guide crypto trading and investment strategies. It contains linear regression, asset correlation, and asset performance statistics, including Sortino Ratios and Peak to Trough data. The application collects real-time data from the Messari API, performs statstical modeling on the back-end, and displays the data in a Jupyter Notebook.
+The crypto analytics dashboard is an application that collects real-time data from the Messari API
+
+technical indicators application built by Peter Lieberman to guide crypto trading and investment strategies. It contains linear regression, asset correlation, and asset performance statistics, including Sortino Ratios and Peak to Trough data. The application collects real-time data from the Messari API, performs statstical modeling on the back-end, and displays the data in a Jupyter Notebook.
 
 
 ## Technologies
 
 ```python
-The program uses a combination of first-party & third-party Python libraries: 
-    
-    - 3rd Party Libraries: Pandas, NumPy, FinancialAnalysis, Messari.Messari, Datetime, hvPlot, Matplotlib
-    
-    - 1st Party Modules: api.py, calculations.py, charts.py, filters.py
+The program uses Pandas, NumPy, FinancialAnalysis, Messari.Messari, Datetime, hvPlot, Matplotlib and several custom built function in "formulas" folder.
 ```
 ---
 

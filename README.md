@@ -6,7 +6,7 @@ There are two versions of the application:
 
 The **first** application is **"crypto_analytics dashboard.ipynb."** It is a Jupyter Notebook that can be viewed at [nbviewer.org](https://nbviewer.org/github/Pac1226/Crypto-Analytics-Dashboard/blob/main/crypto_analytics_dashboard.ipynb).
 
-The **second** application is **"crypto_streamlit_app.py."** This is an interactive web application hosted on Streamlit that responds to user inputs and updates in real-time.
+The **second** application is **"crypto_streamlit_app.py."** This is an interactive web application hosted on Streamlit.
 
 ---
 

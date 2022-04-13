@@ -56,7 +56,7 @@ There are four (4) key insights that can be displayed over any time period for w
   - Builds a risk/return profile, showing the annual volatility, price peak, max drawdown, and the Sharpe, Sortino, and Calmar ratios.
   
 * Asset Correlations
-  - Displays the correlation among assets over any time period, which is used to build diversified portfolios and assess macro crypto sentinent.
+  - Displays the correlation among assets over any time period, proiding insights into portfolio construction and macro crypto sentinent.
   
 * Linear Regressions
   - Runs machine learning models to pinpoint the linear regression paralell channel over any period.

@@ -19,7 +19,7 @@ hv.extension('bokeh')
 # A paid subscription is required.
 
 #st.write("messari_api_key", os.environ["MESSARI_API_KEY"] == st.secrets["MESSARI_API_KEY"],)
-messari_api_key = "b1eb4eab-94cd-4e5f-83be-24220395dd4e"
+messari_api_key="b1eb4eab-94cd-4e5f-83be-24220395dd4e"
 messari = Messari(messari_api_key)
 
 # Header of application

@@ -10,10 +10,10 @@ The second application is "crypto_streamlit_app.py," which is an interactive web
 
 ## Technologies
 
-```python
+"""python
 The program uses Pandas, NumPy, FinancialAnalysis, Messari, Scikit-learn, hvPlot, Matplotlib, and sevaral custom built functions.
   
-```
+"""
 ---
 
 ## Installation Guide

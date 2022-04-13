@@ -53,7 +53,7 @@ There are four (4) key insights that can be displayed over any time period for w
   - Compares the price growth across time windows, giving a sense of shifting investor interest.
   
 * Risk/Return Metrics
-  - Builds a comprehensive risk/return profile, showing growth, annual volatility, price peak, max drawdown, and the Sharpe, Sortino, and Calmar ratios.
+  - Builds a risk/return profile, showing the annual volatility, price peak, max drawdown, and the Sharpe, Sortino, and Calmar ratios.
   
 * Asset Correlations
   - Displays the correlation among assets over any time period, which is used to build diversified portfolios and assess macro crypto sentinent.

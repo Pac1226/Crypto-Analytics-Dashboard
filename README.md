@@ -20,7 +20,7 @@ The program uses Pandas, NumPy, FinancialAnalysis, Messari, Scikit-learn, hvPlot
 
 ## Installation Guide
 
-FinancialAnalysis and Messari.Messari will need to be installed to run the Jupyter Notebook locally on your computer. There are four additional modules in the "formulas" folder that the application depends on.
+FinancialAnalysis and Messari.Messari are required to run the Jupyter Notebook locally on your computer. There are four additional modules in the "formulas" folder that the application also depends on.
 
 Accessing the web-applications requires no programming or downloading. These are accessible to anyone through a web browser.
 
@@ -60,7 +60,7 @@ There are four (4) key insights that can be displayed over any time period. For 
   
 * Linear Regressions
   - Runs machine learning models to pinpoint the linear regression paralell channel over any period.
-  - Shows the regression line, standard devaition parellel lines, and the 50-Day / 200-Day Simple Moving Average (SMA).
+  - Shows the regression line, standard deviation parellel lines, and the 50-Day / 200-Day Simple Moving Average (SMA).
 
 ---
 

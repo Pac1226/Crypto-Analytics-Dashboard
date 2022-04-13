@@ -1,6 +1,6 @@
 # Crypto Analytics Dashboard
 
-There are two applications built by Peter Lieberman that analyze the risk/return profile of various crypto assets and make price predictions based on machine learning algorithms.
+There are two applications built that analyze the risk/return profile of various crypto assets and make price predictions based on machine learning algorithms.
 
 The first application si "crypto_analytics dashboard.ipynb," which is a Jupyter Notebook that can be downloaded for customization or accessed over the internet through the below link:
 

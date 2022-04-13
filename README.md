@@ -1,54 +1,69 @@
 # Crypto Analytics Dashboard
 
-The crypto analytics dashboard is an application that collects real-time data from the Messari API
+There are two applications that assess the risk/return profile of crypto assets and provide insight into future price movements using linear regressions. The app connects to the Messari API, a crypto research firm that aggreggates data from crypto exchanges, protocols, and analytics firms. The app runs a series of statistical models on real-time data, displaying key insights as data visualizations.
 
-technical indicators application built by Peter Lieberman to guide crypto trading and investment strategies. It contains linear regression, asset correlation, and asset performance statistics, including Sortino Ratios and Peak to Trough data. The application collects real-time data from the Messari API, performs statstical modeling on the back-end, and displays the data in a Jupyter Notebook.
+The **first** application is called **"crypto_analytics dashboard.ipynb."** It is a Jupyter Notebook that can be accessed over the internet through the below link for viewing only or downloaded from GitHub for full customization.
 
+[nbviewer.org](https://nbviewer.org/github/Pac1226/Crypto-Analytics-Dashboard/blob/main/crypto_analytics_dashboard.ipynb)
+
+The **second** application is **"crypto_streamlit_app.py."** This is an interactive web application hosted on Streamlit that responds to user inputs and updates in real-time. The data and insights are the same. The former is more comprehensive and the latter is more interactive and user-friendly.
+
+---
 
 ## Technologies
 
 ```python
-The program uses Pandas, NumPy, FinancialAnalysis, Messari.Messari, Datetime, hvPlot, Matplotlib and several custom built function in "formulas" folder.
+The program uses Pandas, NumPy, FinancialAnalysis, Messari, Scikit-learn, hvPlot, Matplotlib, and sevaral custom built functions. 
 ```
+
 ---
 
 ## Installation Guide
 
-For most users, FinancialAnalysis, Messari.Messari will need to be installed prior to utilizing the Jupyter Notebooks. The Voila version can be asked by anyone through a web browser.
+FinancialAnalysis and Messari.Messari will need to be installed to run the Jupyter Notebook locally on your computer. There are four additional modules in the "formulas" folder that the application depends on.
 
----
+Accessing the web-applications requires no programming or downloading. These are accessible to anyone through a web browser.
 
-## Modules
+--
 
-The crypto_analytics.py is the main script. The "formulas" folder contains four (4) modules that I built that connect to the Messari API, clean the data, and run statistical models. The "data" folder contains several CSV files that contain data pulled from the Messari API. These data files are not used in the the application itself, but are shared for offline data analysis.
+## Crypto Assets
 
+The applications aggregate, clean, and run models on timeseries price data collected on twelve (12) Layer One blockchain protocols.
 
-## Usage
+* Bitcoin (BTC)
+* Ethereum (ETH)
+* BNB Chain (BNB)
+* Solana (SOL)
+* Cardano (ADA)
+* Terra (LUNA)
+* Avalanche (AVAX)
+* Polygon (MATIC)
+* Polkadot (DOT)
+* NEAR Protocol (NEAR)
+* Cosmos (ATOM)
+* Algorand (ALGO)
 
-The assets included in the dashboard are Bitcoin, Ethereum, Cardano, BNB Smart Chain, Solana, Avalanche, Terra, Polkadot, Polygon, Cosmos, NEAR, and Algorand. There are four (4) areas of anaylsis:
+--
 
-1) Crypto Power Rankings: displays the real-time price change of the crypto assets over the last 12 months, last 180 days, and the last 90 days
+## Analytics & Insights
 
-2) Financial Ratios & Performance Statistics: shows the price peak-to-trough and Sharpe, Sortino, and Calmar ratios over the last 12 months
+There are four (4) key insights that can be displayed over any time period. For most assets, the data only goes back to Q3/Q4 2020.
 
-3) Assets Correlations: shows the correlation of the crypto assets on a rolling 12 month basis, displayed as a heatmap
-
-4) Linear Regressions: performs a timeseries linear regression that produces a parellel channel of the long-term mean and standard deviation. This is used to guide a "mean reversion" trading strategy 
-
----
-
-## Charts
-
-
-
----
-
-## Contributors
-
-The application was built by Peter Lieberman.
+* Historical Price Performance
+  - Compares the price growth across time windows, giving a sense of shifting investor interest.
+  
+* Risk/Return Metrics
+  - Builds a risk/return profile, showing the annual volatility, price peak, max drawdown, and the Sharpe, Sortino, and Calmar ratios.
+  
+* Asset Correlations
+  - Displays the correlation among assets over any time period, proiding insights into portfolio construction and macro crypto sentinent.
+  
+* Linear Regressions
+  - Runs machine learning models to pinpoint the linear regression paralell channel over any period.
+  - Shows the regression line, standard devaition parellel lines, and the 50-Day / 200-Day Simple Moving Average (SMA).
 
 ---
 
 ## License
 
-Anyone can utilize the application. However, the Jupyter Notebook requires a private key to access the data from the Messari API.
+Running the Jupyter Notebook locally requires a private key to access the data from the Messari API.

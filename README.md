@@ -20,7 +20,7 @@ The program uses Pandas, NumPy, FinancialAnalysis, Messari, Scikit-learn, hvPlot
 
 ## Installation Guide
 
-FinancialAnalysis and Messari.Messari will need to be installed to downloaded and running the Jupyter Notebook locally on your computer. There are four additional modules in the "formulas" folder that are also required to run the file locally. 
+FinancialAnalysis and Messari.Messari will need to be installed to run the Jupyter Notebook locally on your computer. There are four additional modules in the "formulas" folder that the application depends on.
 
 Accessing the web-applications requires no programming or downloading. These are accessible to anyone through a web browser.
 

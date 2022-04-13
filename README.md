@@ -47,7 +47,7 @@ The applications aggregate, clean, and run models on timeseries price data colle
 
 ## Analytics & Insights
 
-There are four (4) key insights that can be displayed over any time period for which there is data on the asset. For most assets, the data only goes back to Q3/Q4 2020.
+There are four (4) key insights that can be displayed over any time period for which there is data on the asset. For most assets, the data only goes back to Q3/Q4 2020. The available time periods to run analytics on are 1-18 months. For Bitcoin and Ethereum, the app looks back 60 months.
 
 * Historical Price Performance
   - Compares the price growth across time windows, giving a sense of shifting investor interest.

@@ -1,8 +1,8 @@
 # Crypto Analytics Dashboard
 
-There are two applications built that analyze the risk/return profile of various crypto assets and make price predictions based on machine learning algorithms.
+There are two applications that analyze the risk/return profile of various crypto assets and make price predictions using machine learning.
 
-The first application si "crypto_analytics dashboard.ipynb," which is a Jupyter Notebook that can be downloaded for customization or accessed over the internet through the below link:
+The first application is called "crypto_analytics dashboard.ipynb." It can be accessed over the internet through the below link or downloaded as a Jupyter Notebook for customization.
 
 https://nbviewer.org/github/Pac1226/Crypto-Analytics-Dashboard/blob/main/crypto_analytics_dashboard.ipynb
 

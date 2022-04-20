@@ -1,12 +1,8 @@
 # Crypto Analytics Dashboard
 
-This is an application that generates insights about the price action of crypto assets. It connects to the Messari API, which aggreggates data from crypto exchanges, protocols, and analytics firms. The app runs a series of statistical models on real-time price data and displays key insights as data visualizations.
+This is a Jupyter Notebook that generates insights about the price action of crypto assets. It connects to the Messari API, which aggreggates data from crypto exchanges, protocols, and analytics firms. The app runs a series of statistical models on real-time price data and displays key insights as data visualizations.
 
-There are two versions of the application:
-
-The **first** application is **"crypto_analytics dashboard.ipynb."** It is a Jupyter Notebook that can be viewed at [nbviewer.org](https://nbviewer.org/github/Pac1226/Crypto-Analytics-Dashboard/blob/main/crypto_analytics_dashboard.ipynb).
-
-The **second** application is **"crypto_streamlit_app.py."** This is an interactive web application hosted on Streamlit.
+The application is **"crypto_analytics dashboard.ipynb."** and can be viewed at [nbviewer.org](https://nbviewer.org/github/Pac1226/Crypto-Analytics-Dashboard/blob/main/crypto_analytics_dashboard.ipynb).
 
 ---
 
@@ -21,8 +17,6 @@ The program uses Pandas, NumPy, FinancialAnalysis, Messari, Scikit-learn, hvPlot
 ## Installation Guide
 
 FinancialAnalysis and Messari.Messari are required to run the Jupyter Notebook locally on your computer. There are four additional modules in the "formulas" folder that the application also depends on.
-
-Accessing the web-applications requires no programming or downloading. These are accessible to anyone through a web browser.
 
 --
 
